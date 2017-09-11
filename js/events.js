@@ -29,5 +29,6 @@ $(document).ready(function(){
 getit();
 frameIt();
 pressIt();
+submitIt();
 
 });
