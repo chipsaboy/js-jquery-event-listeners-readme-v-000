@@ -10,6 +10,14 @@ function frameIt() {
   });
 };
 
+function pressIt() {
+  $('#typing').on('keydown', function(k) {
+    if (k.which === 71) {
+      alert("You pressed 'g'!");
+    };
+  });
+};
+
 $(document).ready(function(){
 
 getit();
